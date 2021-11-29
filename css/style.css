@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #153f41;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.main-calc {
+	max-width: 30rem;
+	width: 90%;
+	background: #c78e12;
+	padding: 1rem;
+	border-radius: 1.5rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+	            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-calc header {
+	color: #d80788;
+	border-bottom: 0.16rem dashed #387229;
+	text-align: center;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	font-family: 'Montserrat', sans-serif;
+}
+.form {
+	margin: 2rem 0;
+}
+.form label{
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(3, 19, 26);
+	display: block;
+	padding: 0.2rem 0;
+	font-weight: 200;
+}
+
+.form input {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 1.2rem;
+	border-bottom: 0.1rem solid #b0c4cc; 
+}
+.form select {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #999;
+	font-size: 1rem;
+	border-bottom: 0.1rem solid #dd2c00; 
+}
+.btn {
+	background: #eee;
+	color: #df17be;
+	border: none;
+	padding: 10px;
+	border-radius: 1rem;
+	opacity: .7;
+	cursor: pointer;
+}
+.btn:hover {
+	opacity: .5;
+}
+
+.result {
+	color: #390ed4;
+	font-family:  sans-serif;
+}
+.result span, .result sup {
+	color: #0e1405;
+}
